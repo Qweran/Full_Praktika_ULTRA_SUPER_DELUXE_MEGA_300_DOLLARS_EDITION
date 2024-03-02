@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_grapa"
+    app:startDestination="@id/nav_button_item_list_posts">
+
+    <fragment
+        android:id="@+id/nav_button_item_list_posts"
+        android:name="com.example.myapplication.fragments.ListPostFragmet"
+        android:label="fragment_list_post_fragmet"
+        tools:layout="@layout/fragment_list_post_fragmet" />
+    <fragment
+        android:id="@+id/nav_button_item_add"
+        android:name="com.example.myapplication.fragments.AddPost"
+        android:label="fragment_add_post"
+        tools:layout="@layout/fragment_add_post" />
+</navigation>
